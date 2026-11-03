@@ -1,0 +1,21 @@
+{
+  "name": "mt1-labexam",
+  "version": "1.0.0",
+  "description": "Library Book Management Web Application for the Full Stack Development lab examination",
+  "type": "module",
+  "main": "expressApp.js",
+  "scripts": {
+    "start:http": "node httpServer.js",
+    "start:express": "node expressApp.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "library",
+    "rest-api"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
